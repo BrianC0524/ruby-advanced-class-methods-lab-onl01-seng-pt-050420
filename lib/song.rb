@@ -20,6 +20,7 @@ class Song
   
   def self.new_by_name(new_name)
     
+<<<<<<< HEAD
     song = self.new
     song.name = new_name
     song
@@ -77,5 +78,14 @@ class Song
     
   end
     
+=======
+    song = new_name
+    
+    song = self.new
+    
+    
+    
+  end
+>>>>>>> 71b8f8ac3d8f4b5bcd4edc90b61c970f67600f5b
 
 end
